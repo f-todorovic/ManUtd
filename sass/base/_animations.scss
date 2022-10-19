@@ -1,0 +1,198 @@
+@keyframes moveInFromLeftEmblem {
+  0%{
+    opacity: 0;
+    transform: translateX(-4rem);
+  }
+
+  75%{
+    transform: translateX(1rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInFromRightEmblem {
+  0%{
+    opacity: 0;
+    transform: translateX(4rem);
+  }
+
+  75%{
+    transform: translateX(-1rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInFromTopHeading {
+  0%{
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+
+  85%{
+    transform: translateY(0.85rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveInFromBottomNavigation {
+  0%{
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+
+  85%{
+    transform: translateY(-0.85rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveInFromLeftPictureTestimonial {
+  0%{
+    opacity: 0;
+    transform: translateX(-4rem);
+    clip-path: ellipse(30% 20% at 0% 50%);
+  }
+
+  25%{
+    clip-path: ellipse(50% 25% at 0% 50%);
+  }
+
+  50%{
+    clip-path: ellipse(75% 38% at 0% 50%);
+  }
+
+  75%{
+    clip-path: ellipse(95% 50% at 0% 50%);
+  }
+
+  85%{
+    clip-path: ellipse(100% 50% at 10% 50%);
+  }
+
+  90%{
+    clip-path: ellipse(100% 63% at 17% 50%);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveButtonUp {
+  100%{
+    transform: translateY(-0.2rem);
+  }
+}
+
+@keyframes moveInFromRightPlayers {
+  0%{
+    opacity: 0;
+    transform: translateX(5rem);
+  }
+
+  85%{
+    transform: translateX(-2.5rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInFromLeftPlayers {
+  0%{
+    opacity: 0;
+    transform: translateX(-40rem);
+  }
+
+  85%{
+    transform: translateX(2.5rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInFromTopManagerSelection {
+  0%{
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+
+  85%{
+    transform: translateY(0.5rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveInFromTopHeader {
+  0%{
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+
+  85%{
+    transform: translateY(0.5rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveInFromLeftManagerText {
+  0%{
+    opacity: 0;
+    transform: translateX(-3rem);
+  }
+
+  85%{
+    transform: translateX(0.5rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInFromTopLeftManagerGallery {
+  0%{
+    opacity: 0;
+    transform: translate(-50%,-50%);
+  }
+
+  85%{
+    transform: translate(1.5rem,1.5rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
