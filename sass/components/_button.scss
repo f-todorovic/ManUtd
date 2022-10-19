@@ -1,0 +1,27 @@
+.btn{
+  font-size: var(--f-size-5);
+  font-weight: 600;
+  border: transparent;
+  background-color: var(--color--header);
+  color: var(--bg-color--header);
+  padding: var(--w-spacing-1) var(--w-spacing-2);
+  border-radius: 2rem;
+  cursor: pointer;
+  box-shadow: 0 0.6rem 0.8rem var(--box-shadow__gray);
+  transition: all 0.3s;
+
+  &:hover{
+    background-color: var(--color--header__light);
+    color: var(--bg-color--header__30pc);
+    transform: translateY(-0.2rem);
+    transition: all 0.4s;
+  }
+
+  &:active{
+    background-color: var(--color--header__light__60pc);
+    color: var(--color--primary);
+    transform: translateY(0);
+    transition: all 0.3s;
+  }
+
+}
