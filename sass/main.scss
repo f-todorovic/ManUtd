@@ -1,0 +1,20 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/animations";
+@import "base/base";
+
+@import "components/abs-emblems";
+@import "components/aside";
+@import "components/button";
+@import "components/card__shop";
+@import "components/header";
+@import "components/main__pic";
+@import "components/testimonial-block";
+@import "components/players--divison";
+@import "components/manager";
+
+@import "layout/layout";
+@import "layout/footer";
+
+@import "pages/home";
