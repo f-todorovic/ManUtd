@@ -1,0 +1,98 @@
+.players__div{
+  margin: 0 var(--w-spacing-4);
+  row-gap: var(--w-spacing-4);
+
+
+  &--img{
+    position: relative;
+    cursor: pointer;
+
+    & img{
+      border-radius: 1rem;
+      max-width: 95%;
+      cursor: pointer;
+      transition: all 0.4s;
+      box-shadow: 0 1.2rem 3.3rem var(--box-shadow__gray);
+
+      &:hover{
+        transition: all 0.4s;
+        transform: scale(1.02);
+        overflow: hidden;
+      }
+    }
+
+    & span{
+      position: absolute;
+      padding: var(--w-spacing-1);
+      bottom: 0;
+      left: 0;
+      width: 95%;
+
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+      font-size: var(--f-size-7);
+      color: var(--color--header__clicked);
+      backdrop-filter: blur(1.2rem);
+      text-align: center;
+    }
+  }
+
+  .players__back{
+    display: none;
+    background-color: var(--bg-color--secondary);
+    border-radius: 1rem;
+    padding-left: var(--w-spacing-2);
+    cursor: pointer;
+
+    & img{
+      width: 6.5rem;
+    }
+
+    & span{
+      font-size: var(--f-size-8);
+      font-weight: 800;
+    }
+
+    .player__app{
+      align-items: center;
+      gap: var(--w-spacing-4);
+    }
+
+    .player__goals{
+      align-items: center;
+      gap: var(--w-spacing-4);
+    }
+    .player__assists{
+      align-items: center;
+      gap: var(--w-spacing-4);
+    }
+  }
+
+  .player{
+
+    &__first__row{
+      animation: moveInFromRightPlayers 0.7s ease-out 1s;
+      animation-fill-mode: backwards;
+    }
+
+    &__second__row{
+      animation: moveInFromLeftPlayers 0.7s ease-out 1.25s;
+      animation-fill-mode: backwards;
+    }
+
+    &__third__row{
+      animation: moveInFromRightPlayers 0.7s ease-out 1.5s;
+      animation-fill-mode: backwards;
+    }
+
+    &__fourth__row{
+      animation: moveInFromLeftPlayers 0.7s ease-out 1.75s;
+      animation-fill-mode: backwards;
+    }
+
+    &__fifth__row{
+      animation: moveInFromRightPlayers 0.7s ease-out 2s;
+      animation-fill-mode: backwards;
+    }
+  }
+}
