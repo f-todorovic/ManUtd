@@ -1,0 +1,32 @@
+.left-absolute-pic{
+  position: absolute;
+  height: 5rem;
+  top: 1.5rem;
+  left: 1.5rem;
+
+  cursor: pointer;
+
+  transition: all 0.3s;
+  animation: moveInFromLeftEmblem 1s ease-out 0.3s;
+  animation-fill-mode: backwards;
+
+  @include respondMaxWidth(65.625em){
+    display: none;
+  }
+}
+
+.right-absolute-pic{
+  position: absolute;
+  height: 5rem;
+  top: 1.5rem;
+  right: 1.5rem;
+
+  cursor: pointer;
+
+  animation: moveInFromRightEmblem 1s ease-out 0.3s;
+  animation-fill-mode: backwards;
+
+  @include respondMaxWidth(65.625em){
+    display: none;
+  }
+}
