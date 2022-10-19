@@ -1,0 +1,39 @@
+.testimonial-block{
+  background-color: var(--bg-color--header);
+  border-radius: 1rem;
+  gap: var(--w-spacing-4);
+
+  &__img {
+    border-radius: 1rem;
+    max-width: 50%;
+
+    transition: all 0.2s;
+    animation: moveInFromLeftPictureTestimonial 0.7s ease-out 1.3s;
+    animation-fill-mode: backwards;
+  }
+
+  &__text{
+    text-align: justify;
+    justify-content: space-evenly;
+    color: var(--color--header);
+    letter-spacing: -0.2rem;
+    line-height: 1.1;
+
+    @include respondMaxWidth(71.875em){
+      p{
+        font-size: var(--f-size-8) !important;
+      }
+    }
+
+    p{
+      font-size: var(--f-size-9);
+      margin-right: var(--w-spacing-4);
+    }
+
+    &--spokeperson{
+      text-align: center;
+      font-size: var(--f-size-5);
+      margin-right: var(--w-spacing-4);
+    }
+  }
+}
