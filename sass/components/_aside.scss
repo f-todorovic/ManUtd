@@ -1,0 +1,72 @@
+.left-aside{
+  grid-column: 1/span 1;
+  margin-left: var(--w-spacing-4);
+  gap: var(--w-spacing-3);
+  align-items: center;
+
+  @include respondMaxWidth(90.625em){
+    & img{
+      display: none;
+    }
+  }
+
+  & img{
+    max-width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0 0.9rem 2.25rem var(--box-shadow__gray);
+
+    animation: moveInFromLeftEmblem 0.7s ease-out 0.9s;
+    animation-fill-mode: backwards;
+  }
+
+  @include respondMaxWidth(93.75em){
+    & p{
+      display: none;
+    }
+  }
+
+  & p{
+    font-size: var(--f-size-5);
+    color: inherit;
+    animation: moveInFromLeftEmblem 0.7s ease-out 1.1s;
+    animation-fill-mode: backwards;
+    font-weight: 600;
+  }
+}
+
+.right-aside{
+  grid-column: 3/span 1;
+  margin-right: var(--w-spacing-4);
+  gap: var(--w-spacing-3);
+  align-items: center;
+
+  @include respondMaxWidth(90.625em){
+    & img{
+      display: none;
+    }
+  }
+
+  & img{
+    max-width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0 0.9rem 2.25rem var(--box-shadow__gray);
+
+    animation: moveInFromRightEmblem 0.7s ease-out 0.9s;
+    animation-fill-mode: backwards;
+  }
+
+  @include respondMaxWidth(93.75em){
+    & p{
+      display: none;
+    }
+  }
+
+  & p{
+    font-size: var(--f-size-5);
+    color: inherit;
+
+    animation: moveInFromRightEmblem 0.7s ease-out 1.1s;
+    animation-fill-mode: backwards;
+    font-weight: 600;
+  }
+}
