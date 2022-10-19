@@ -1,0 +1,44 @@
+.home{
+  width: 100%;
+  margin-bottom: var(--w-spacing-medium);
+
+  &__side{
+
+    h3{
+      color: var(--color--header);
+      font-size: var(--f-size-7);
+      text-align: center;
+    }
+
+    &--front{
+      justify-content: space-evenly;
+
+      &--pic{
+        max-width: 90%;
+        border-radius: 1rem;
+        cursor: pointer;
+      }
+    }
+
+    &--back{
+      display: none;
+      border-radius: 1rem;
+      background-color: var(--bg-color--header);
+
+      .champions__league--icon{
+        width: 10rem;
+        background-image: var(--color--header);
+      }
+
+      .premier__league{
+        flex-wrap: wrap;
+
+        .champions__league--icon{
+          flex-grow: 0;
+          //flex-shrink: 0;
+        }
+      }
+    }
+  }
+
+}
