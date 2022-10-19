@@ -1,0 +1,38 @@
+:root{
+  --bg-color--primary: #feffcc; //f0f0f0 //fdffb6
+  --bg-color--secondary: #f0f0f0;
+  --bg-color--header: #d63031;
+  --bg-color--header__30pc:#962222;
+  --bg-color--header__dark: #801d1d; //40% darker
+
+  --color--header__light__60pc:#fcf1f1; //60% lighter
+  --color--header__light: #fae7e7; //30% lighter
+  --color--header: #f8dddd;
+  --color--header__clicked: #fef8f8;
+
+  --color--primary:#561314;
+
+  --box-shadow__gray: rgba(76,76,76,0.7);
+
+  --w-spacing-1: 0.8rem;
+  --w-spacing-2: 1.2rem;
+  --w-spacing-3: 1.6rem;
+  --w-spacing-4: 2.4rem;
+  --w-spacing-5: 3.2rem;
+  --w-spacing-medium: 4.8rem;
+  --w-spacing-7: 6.4rem;
+  --w-spacing-big: 8rem;
+  --w-spacing-9: 9.6rem;
+  --w-spacing-extra__big: 12.8rem;
+
+  --f-size-1: 1.2rem;
+  --f-size-2: 1.4rem;
+  --f-size-3: 1.6rem;
+  --f-size-4: 1.8rem;
+  --f-size-5: 2rem;
+  --f-size-6: 2.4rem;
+  --f-size-7: 3rem;
+  --f-size-8: 3.6rem;
+  --f-size-9: 4.4rem;
+  --f-size-h1: 5.2rem;
+}
