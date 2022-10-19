@@ -1,0 +1,11 @@
+main{
+  padding-top: var(--w-spacing-7);
+  box-shadow: 0 0.3rem 0.4rem var(--box-shadow__gray);
+  position: relative;
+}
+
+article{
+  grid-column: 2/span 1;
+  grid-row: 1/span 1;
+  margin-bottom: var(--w-spacing-big);
+}
